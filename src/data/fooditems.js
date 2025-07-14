@@ -1,0 +1,68 @@
+const foodItems = [
+  {
+    id: '1',
+    name: 'Classic Cheeseburger',
+    category: 'burgers',
+    price: '$6.99',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFExWftHhBK07UkiHZykqbo1RFUZEa2ecFgg&s',
+    description: 'A delicious classic cheeseburger made with juicy beef, melted cheese, fresh lettuce, tomato, and pickles on a toasted bun.',
+  },
+  {
+    id: '2',
+    name: 'Beef Burger',
+    category: 'burgers',
+    price: '$7.49',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP7IqE_5zGYlHKPXosN2eyi4QJ4bq2ykUDew&s',
+    description: 'A hearty beef burger featuring a thick grilled patty, smoky sauce, cheddar cheese, and crispy onions.',
+  },
+  {
+    id: '3',
+    name: 'Pepperoni Pizza',
+    category: 'pizzas',
+    price: '$9.99',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcT2XvUZ6D1S8G1xm9n0P4_mWxoeTekkSnIw&s',
+    description: 'Classic pepperoni pizza with mozzarella cheese and a rich tomato base on a hand-tossed crust.',
+  },
+  {
+    id: '4',
+    name: 'Margherita Pizza',
+    category: 'pizzas',
+    price: '$8.99',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP0HbRY0SsECXq3XHqjXUBw3CqK1VfE5PX1w&s',
+    description: 'Fresh Margherita pizza topped with basil, fresh mozzarella, and tomato sauce on a thin crispy crust.',
+  },
+  {
+    id: '5',
+    name: 'Spicy Ramen',
+    category: 'ramens',
+    price: '$7.99',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx71H683Q_djsX17Yu5wPUCFNpSs751S_HkA&s',
+    description: 'Hot and spicy ramen with tender noodles, seasoned broth, sliced pork, boiled egg, and green onions.',
+  },
+  {
+    id: '6',
+    name: 'Miso Ramen',
+    category: 'ramens',
+    price: '$7.49',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKu6j9gTuRNhyqz7RY0K9iTRm482WpaQznGw&s',
+    description: 'Comforting miso ramen in a rich miso-based broth with corn, bean sprouts, seaweed, and soft-boiled egg.',
+  },
+  {
+    id: '7',
+    name: 'Sushi Platter',
+    category: 'sushi',
+    price: '$18.00',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAHdOQAqet7iXBW7oQeETfigPv7rFV4ig8tw&s',
+    description: 'A premium sushi platter with assorted nigiri, sashimi, and rolls served with soy sauce and wasabi.',
+  },
+  {
+    id: '8',
+    name: 'Spaghetti Carbonara',
+    category: 'pasta',
+    price: '$10.75',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDNgnddUmlzqZgpQc5PHUYCUc0BMRS7S2eXg&s',
+    description: 'Creamy spaghetti carbonara made with eggs, Parmesan cheese, crispy pancetta, and black pepper.',
+  },
+];
+
+export default foodItems;
