@@ -36,6 +36,7 @@ All styles are built using **Styled Components** for a consistent, reusable UI a
 ```bash
 git clone https://github.com/raedumair23/fastfood.git
 
+```
 2. Install Dependencies
 npm install
 # or
@@ -43,10 +44,4 @@ yarn
 3. Run the App
 npm start
 📸 Screenshots
-cd fastfood![Screenshot_20250804_113806_sample](https://github.com/user-attachments/assets/35f6074f-faa7-4f1c-b96d-b02a793c5617)
-![Screenshot_20250804_113756_sample](https://github.com/user-attachments/assets/e4a27b85-cae6-4f49-9edb-92fa90575bc3)
-![Screenshot_20250804_113823_sample](https://github.com/user-attachments/assets/b7a9cefc-c4e4-47bc-a7c4-5a9a3e55425b)
-![Screenshot_20250804_113819_sample](https://github.com/user-attachments/assets/4d145715-7fe7-49ce-a6ab-1a344c1b130f)
-![Screenshot_20250804_113813_sample](https://github.com/user-attachments/assets/5cfdc66e-6893-4574-912e-6dac1d1534b5)
-
-
+<div align="center"> <img src="https://github.com/user-attachments/assets/35f6074f-faa7-4f1c-b96d-b02a793c5617" width="250" /> <img src="https://github.com/user-attachments/assets/e4a27b85-cae6-4f49-9edb-92fa90575bc3" width="250" /> <img src="https://github.com/user-attachments/assets/b7a9cefc-c4e4-47bc-a7c4-5a9a3e55425b" width="250" /> <img src="https://github.com/user-attachments/assets/4d145715-7fe7-49ce-a6ab-1a344c1b130f" width="250" /> <img src="https://github.com/user-attachments/assets/5cfdc66e-6893-4574-912e-6dac1d1534b5" width="250" /> </div>
