@@ -1,97 +1,52 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🍔 FastFood - React Native Mobile App
 
-# Getting Started
+**FastFood** is a responsive and scalable mobile application developed using **React Native**. It provides a modern and efficient food ordering experience, allowing users to browse fast food items like burgers, pizzas, and more. Items are fetched from an external API using **Axios**, and users can add them to a cart managed by **Redux**.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 🧾 Project Overview
 
-## Step 1: Start Metro
+FastFood follows a clean and modular code structure with clear separation of concerns—making the app easy to scale and maintain. Axios handles dynamic data fetching from a backend API, while Redux ensures reliable and centralized state management, particularly for the cart system.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+All styles are built using **Styled Components** for a consistent, reusable UI across screens. The app is designed to be fully responsive, offering a smooth user experience on various mobile screen sizes.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## 🚀 Features
 
-```sh
-# Using npm
+- ✅ Fetch real-time food data from an API using **Axios**
+- 🛒 Full **Cart Functionality** using **Redux** (add, update, remove items)
+- 🎨 Modular styling with **Styled Components**
+- 📂 Structured folder-based architecture
+- 📱 Fully responsive design
+- 🌙 Theme-ready (Dark Mode support can be added)
+- 🔄 Smooth navigation between screens (Home, Details, Cart, etc.)
+
+## 📂 Tech Stack
+
+| Layer               | Technology              |
+|--------------------|--------------------------|
+| Framework          | React Native ( CLI) |
+| State Management   | Redux & Redux Toolkit     |
+| Networking         | Axios                     |
+| Styling            | Styled Components         |
+| Navigation         | React Navigation (assumed) |
+| Fonts & Assets     | Custom fonts, images      |
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/raedumair23/fastfood.git
+
+2. Install Dependencies
+npm install
+# or
+yarn
+3. Run the App
 npm start
+📸 Screenshots
+cd fastfood![Screenshot_20250804_113806_sample](https://github.com/user-attachments/assets/35f6074f-faa7-4f1c-b96d-b02a793c5617)
+![Screenshot_20250804_113756_sample](https://github.com/user-attachments/assets/e4a27b85-cae6-4f49-9edb-92fa90575bc3)
+![Screenshot_20250804_113823_sample](https://github.com/user-attachments/assets/b7a9cefc-c4e4-47bc-a7c4-5a9a3e55425b)
+![Screenshot_20250804_113819_sample](https://github.com/user-attachments/assets/4d145715-7fe7-49ce-a6ab-1a344c1b130f)
+![Screenshot_20250804_113813_sample](https://github.com/user-attachments/assets/5cfdc66e-6893-4574-912e-6dac1d1534b5)
 
-# OR using Yarn
-yarn start
-```
 
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
